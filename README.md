@@ -84,7 +84,7 @@ Si no puedes asistir al espacio en vivo, podrás ver la grabación. Puedes encon
 
 Te invitamos, cada vez que termines una homework, a que subas tus avances a tu repositorio. ¿Recordemos cómo hacer esto?
 
-Deberás ejecutar estos comandos:
+Deberás ejecutar estos comandoss:
 
 ```bash
 git add .
