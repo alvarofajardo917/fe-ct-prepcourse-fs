@@ -1,20 +1,17 @@
-function productoEntreNumeros(a, b) {
-  // Asegurarse de que "a" es menor o igual que "b"
-  if (a > b) {
-    // Si "a" es mayor que "b", devolvemos 0
+function productoEntreNúmeros(a, b) {
+  // Dados dos argumentos "a" y "b", devuelve el producto de todos
+  // los números entre a y b (inclusive).
+  // Tu código:
+
+  var acum = 1;
+
+  for(var i=a ; i<=b; i++){
+    acum = acum *i;
+  }
+
+  if(acum === 0){
     return 0;
   }
-
-  // Inicializamos el producto en 1
-  let producto = 1;
-
-  // Calculamos el producto de todos los números entre "a" y "b" (inclusive)
-  for (let i = a; i <= b; i++) {
-    producto *= i;
-  }
-
-  // Retornamos el producto calculado
-  return producto;
+  return acum;
 }
-
-module.exports = productoEntreNumeros;
+module.exports = productoEntreNúmeros;
